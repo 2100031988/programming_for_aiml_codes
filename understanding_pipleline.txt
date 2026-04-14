@@ -1,0 +1,30 @@
+A typical ML Pipeline includes
+-- Data : inspect for common problem
+-- Model selection : a candinate model based on data and task
+-- Testing and Training : split data into training and test sets
+-- Validation : splitiing of training data into reduced training + validation sets and train candinates
+-- Apply : evaluate best model on test data
+
+CANDINATE MODEL 
+-- A candidate model is simply a machine learning model that you've trained and are considering for use
+but haven't officially picked yet. It's a "contender" waiting to prove itself.
+
+Imagine you're hiring a chef:
+
+You invite 5 chefs to cook a dish (these are your candidate models)
+You taste each dish and score them (this is EVALUATION)
+You pick the best one for your restaurant (this is MODEL SELECTION)
+
+NOISE 
+-- unwanted variation that does not reflect true underlying pattern
+
+OUTLIERS
+-- arise from mesaurement errors or deviate from others
+
+ERRORS
+-- incorrect or invalid errors
+-- we can handle noise, errors and outlier through detect % discard strategy ()
+
+FEATURE RELEVANCE
+-- Selecting or combining variables that are strongly related to target model perdormance, reduces overfitting
+-- Dimensionality reduction methods (PCA, feature selection) help discard weak or redundant features.
