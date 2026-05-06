@@ -36,4 +36,8 @@
 # smaller learning rate we can converge slower but we are less likely to overshoot the optimal weights
 
 # in the validation dataset we can evaluate the model performance and tune the hyperparameters 
-# like learning rate, number of hidden layers, number of neurons in each layer, etc.
+# like learning rate, number of hidden layers, number of neurons in each layer, number of epochs,
+# batch size, activation function, etc.
+
+# to reduce overfitting we can use regularization techniques like dropout, L1 and L2 regularization (uses
+# drop out rate), early stopping, loss function, etc.
