@@ -224,3 +224,6 @@ dff.describe(include='all')
 # alternatively we can also do it like this way to add budget in millions okk
 
 # movies['budget (millions)'] = movies['budget'] / 1000000
+
+
+# learning new_ concepts
