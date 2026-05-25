@@ -171,7 +171,7 @@ dff.describe(include='all')
 # Filtering Rows
 # to filter only rows we can do like this:
 
-# long_movies = movies[movies['runtime_movies] > 120]
+# long_movies = movies[movies[runtime_movies] > 120]
 
 # we need to understand that why we kept two movies in outside bracket and this comes to
 # our understanding that first it turns those values into true or false like which movie length is
@@ -226,4 +226,4 @@ dff.describe(include='all')
 # movies['budget (millions)'] = movies['budget'] / 1000000
 
 
-# learning new_ concepts
+
